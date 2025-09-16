@@ -1,6 +1,7 @@
 import java.util.Arrays;
 class selectionSort{
     public static void main(String[] args) {
+        Stack arr = new Stack()
         int[] arr = {3,2,1};
         int n = arr.length;
         selectionSort(arr,n);
